@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(192, 221, 235);
+}
+
+.logo {
+    width: 100px;
+    padding: 5px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 223, 247);
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 0 20px;
+    border-bottom: 2px solid whitesmoke;
+    flex-wrap: wrap;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+section {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+h1, h2, h3, strong, div {
+    font-family: "La Belle Aurore", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+p, div {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+a {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(45, 45, 45);
+    font-size: 14px;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.tone-list {
+    list-style: none;
+}
+
+/*ZONA DE FOOTER*/
+
+footer {
+    margin-top: 5rem;
+    padding: 2rem 0;
+    background: rgb(20, 20, 20);
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-fot {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.logo1 {
+    border-right: 2px solid rgb(51, 51, 51);
+    padding: 30px;
+}
+
+/*en caso de necesitar agregar más elementos, quitar el comentario
+
+@media (max-width: 768px) {
+    .footer-fot {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .logo1 {
+        border-right: none;
+        padding: 15px;
+    }
+
+    .copyright {
+        margin-top: 30px;
+    }
+    
+}
+
+*/
+
+.logo-foot {
+    width: 120px;
+    filter: grayscale(10) drop-shadow(1px 2px 0 white);
+}
+
+.copyright {
+    margin: 0 auto;
+    max-width: 480px;
+    width: 90%;
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 2px solid rgb(51, 51, 51);
+}
