@@ -100,8 +100,27 @@ h3 {
     font-weight: 400;
     font-style: normal;
     color: rgb(120, 13, 93);;
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
+
+.slogan {
+    font-family: "La Belle Aurore", cursive;
+    font-weight: 400;
+    text-align: center;
+    font-size: 35px;
+    color:rgb(120, 13, 93);
+}
+
+.intro_desc {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    margin-top: -5px;
+    padding: 5px;
+    color: whitesmoke;
+}
+
+/*FUENTES DE LAS SECCIONES*/
 
 .sect_title {
     font-family: "La Belle Aurore", cursive;
@@ -112,9 +131,7 @@ h3 {
 }
 
 .sect_desc {
-    font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 100;
     text-align: center;
     margin-top: -30px;
     padding: 30px;
