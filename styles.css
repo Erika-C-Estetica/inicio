@@ -32,23 +32,6 @@ header {
     gap: 20px;
 }
 
-section {
-    margin-top: 50px;
-    padding: 20px;
-}
-
-h1, h2, h3, strong, div {
-    font-family: "La Belle Aurore", cursive;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-}
-
-p, div {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-}
-
 a {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
@@ -61,6 +44,92 @@ a {
 a:hover {
     color: rgb(255, 255, 255);
 }
+
+button {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+button:hover {
+    background-color: rgba(255, 0, 208, 0.573);
+}
+
+.turno {
+    color: rgb(0, 0, 0);
+}
+
+button:hover .turno {
+    color: rgb(255, 255, 255);
+}
+
+/*ACÁ TERMINA EL HEADER NAV*/
+
+section {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+h1, h3, strong {
+    font-family: "La Belle Aurore", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.sect_title {
+    font-family: "La Belle Aurore", cursive;
+    font-weight: 400;
+    text-align: center;
+    font-size: 35px;
+    color:rgb(241, 140, 216);
+}
+
+.sect_desc {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    margin-top: -10px;
+}
+
+/*ACÁ EMPIEZA LA SECCIÓN DE INTRODUCCIÓN*/
+
+.introduccion {
+    background-color: rgb(255, 255, 255);
+    border-radius: 1px;
+}
+
+.local {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.img_local {
+    width: 85%;
+    margin: auto;
+    border-radius: 30px;
+}
+
+/*ACÁ EMPIEZA LA SECCIÓN DE SERVICIOS*/
+
+.cuerpo {
+    background-color: blue;
+}
+
+.servicios { 
+    display: flex;
+    flex-direction: column;
+}
+
+.item1 {
+    display: flex;
+    flex-direction: row;
+}
+
+/*ACÁ TERMINA*/
 
 .tone-list {
     list-style: none;
