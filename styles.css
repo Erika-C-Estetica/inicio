@@ -72,21 +72,37 @@ a:hover {
 }
 
 button {
-    padding: 10px;
-    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    width: 180px;
+    height: 47px;
+    background: rgba(217, 217, 217, 0.58);
+    border: 1px solid white;
+    backdrop-filter: blur(6px);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
 }
 
 button:hover {
-    background-color: rgba(255, 0, 208, 0.573);
+    border: 1px solid black;
+    transform: scale(1.05);
 }
 
-.turno {
-    color: rgb(0, 0, 0);
+button:active {
+    transform: scale(0.95) rotateZ(1.7deg);
 }
 
-button:hover .turno {
-    color: rgb(255, 255, 255);
+.turno:hover {
+    color: black;
 }
+
 
 /*ACÁ TERMINA EL HEADER NAV*/
 
